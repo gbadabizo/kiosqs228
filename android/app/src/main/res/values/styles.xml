@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LaunchTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <!-- Show a splash screen on the activity. Automatically removed when
+             Flutter draws its first frame -->
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+    <string name="app_name">228KIOSQS</string>
+    <!-- Replace "000000000000" with your Facebook App ID here. -->
+    <string name="facebook_app_id">365039861415062</string>
+    <!-- Replace "000000000000" with your Facebook App ID here.    -->
+    <string name="fb_login_protocol_scheme">fb000000000000</string>
+</resources>

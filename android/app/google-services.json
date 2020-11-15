@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "533937037132",
+    "firebase_url": "https://kiosqs.firebaseio.com",
+    "project_id": "kiosqs",
+    "storage_bucket": "kiosqs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533937037132:android:b843b4ef01a75ef64eb9e9",
+        "android_client_info": {
+          "package_name": "com.all4tic.kiosqs228"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "533937037132-q13k7mhoog87jbl308fphecuoohuqlbd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.all4tic.kiosqs228",
+            "certificate_hash": "560c48786c926b4ff92327148cb0b7ffc2dee799"
+          }
+        },
+        {
+          "client_id": "533937037132-s79tbsb4r55mvaqj7iiogqrqq17t5hl2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFM6OzZaFurrwUXpPK437-Jl3xhrB4WFE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "533937037132-s79tbsb4r55mvaqj7iiogqrqq17t5hl2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

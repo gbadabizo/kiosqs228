@@ -1,0 +1,36 @@
+import 'package:flutter/material.dart';
+import 'package:kiosqs228/styleguide/text_style.dart';
+
+
+class CardAbonnement extends StatelessWidget {
+  final  String firstext ;
+
+  final Widget icon ;
+
+  CardAbonnement(this.firstext, this.icon);
+
+  @override
+  Widget build(BuildContext context) {
+    return  Card(
+
+      margin: const EdgeInsets.symmetric(horizontal: 10, vertical: 15),
+      elevation: 5,
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+      child: Padding(
+        padding: const EdgeInsets.only(left: 16.0, top:8, bottom: 8, right: 16),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: <Widget>[
+            Text(firstext, style: titleStyle,),
+            Align(
+                alignment: Alignment.center,
+                child: icon)
+            ,
+
+
+          ],
+        ),
+      ),
+    );
+  }
+}
